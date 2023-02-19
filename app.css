@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f3f2;
+  font-family: "Lato", sans-serif;
+  position: relative;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.header-btn {
+  display: flex;
+}
+.btn {
+  margin-right: 20px;
+  height: 30px;
+  width: 110px;
+  border-radius: 30px;
+  border-color: green;
+}
+.header-link {
+  color: rgb(128, 128, 128);
+}
+.header-link p:first-child {
+  color: black;
+}
+.bg-text {
+  color: white;
+  font-size: 280px;
+  display: flex;
+  flex-direction: column;
+}
+#smart {
+  align-self: flex-end;
+}
+
+.bulb {
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+.bulb img {
+  height: 450px;
+  width: 300px;
+}
+.phones {
+  position: absolute;
+
+  bottom: 0;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.phones-pg {
+  width: 50%;
+  align-self: center;
+  padding: 20px 30px;
+}
+.phones-img {
+  width: 50%;
+}
+.phones-img img {
+  width: 100%;
+  height: 60%;
+}
+.phones-pg img {
+  height: 40px;
+  margin: 20px 0;
+}
+.info {
+  display: flex;
+  margin-bottom: 50px;
+  color: grey;
+  font-size: small;
+}
+.info p:first-child {
+  width: 50%;
+}
+.info p:last-child {
+  width: 50%;
+  margin: 0 30px;
+}
+.phones-pg h1 {
+  font-size: 50px;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 30px;
+}
+.footer p {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
